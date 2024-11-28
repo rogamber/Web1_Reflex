@@ -53,3 +53,5 @@ STOPSIGNAL SIGKILL
 EXPOSE $PORT
 
 # Apply migrations before starting the backend.
+CMD [ -d alembic ] && reflex db migrate; \
+    caddy start && reflex run --env prod --backend-only --loglevel debug ]

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: "registry.digitalocean.com/geniepy"  # change accordingly!
+  REGISTRY: "registry.digitalocean.com/reflex-github"  # change accordingly!
   IMAGE_NAME: "demo-app" # change accordingly!
 
 jobs:

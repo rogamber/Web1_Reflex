@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: "registry.digitalocean.com/reflex-github"  # change accordingly!
-  IMAGE_NAME: "demo-app" # change accordingly!
+  IMAGE_NAME: "app" # change accordingly!
 
 jobs:
   build-and-push:
